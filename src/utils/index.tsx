@@ -19,7 +19,7 @@ export const isDarkishTheme = (appliedTheme: string): boolean => {
 type EventParams = {
   [key: string]: string;
 };
-
+// Event tracking
 type Colors = {
   [key: string]: { color: string | null; url: string };
 };
